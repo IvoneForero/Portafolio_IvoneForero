@@ -1,0 +1,27 @@
+.social a{
+    margin-right: 25px;
+    font-size: 22px;
+    line-height: 52px;
+}
+
+.social a:hover{
+    color:var(--color-principal);
+    font-size: 25px;
+}
+
+.social i{
+    color: var(--color-principal);
+    font-size: 34px;
+}
+
+@media screen and (max-width: 870px){
+    .social{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social a{
+        padding-bottom: 5px;
+    }
+
+}

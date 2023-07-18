@@ -1,0 +1,10 @@
+.habilidad__img {
+  width: 56px;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .habilidad__img {
+    width: 82.53px;
+  }
+}

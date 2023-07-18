@@ -1,0 +1,8 @@
+.formacion__programa {
+  font-size: 1.097rem;
+  font-family: var(--font-Patrick);
+  color: var(--color-titulos);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

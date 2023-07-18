@@ -1,0 +1,9 @@
+.tarjeta__boton {
+  background: var(--color-btn);
+  font-style: italic;
+  margin-top:2rem;
+  width: 180px;
+  color: var(color-titulos);
+  font-size: 22px;
+}
+

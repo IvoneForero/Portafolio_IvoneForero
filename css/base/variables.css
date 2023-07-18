@@ -1,0 +1,19 @@
+:root {
+  --background: #323341;
+  --background_2: #0e2f475b;
+  
+  --color-principal:#08e8dd;
+  --color-textos: #cfbcd5;
+  --color-titulos:#fbf5a2;
+  --color-menu: #cbf5f8;
+  --color-flotante: #32a0bf48;
+  --color-btn:#32b2a7;
+
+  --font-Sansita: "Sansita", sans-serif;
+  --font-Patrick: "Patrick Hand";
+  --font-Snigle: "Snigle";
+  --font-Chivo: "Chivo";
+  --font-Acme: "Acme";
+  
+
+}

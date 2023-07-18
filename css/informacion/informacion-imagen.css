@@ -1,0 +1,14 @@
+.informacion__imagen {
+  align-items: center;
+  object-fit: cover;
+  height: 300px;
+  width: 380px;
+  margin: auto;
+    
+}
+
+@media screen and (min-width: 768px) {
+  .informacion__imagen {
+    margin: unset;
+  }
+}

@@ -1,0 +1,20 @@
+.cabecera{
+    overflow: auto;
+    padding: 40px;
+}
+
+.cabecera ul{
+    list-style: none;
+    float: right;
+}
+
+.cabecera ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+.cabecera ul li a{
+    display: block;
+    padding: 6px;
+}
+

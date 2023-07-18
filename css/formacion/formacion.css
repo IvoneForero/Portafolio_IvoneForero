@@ -1,0 +1,39 @@
+.formacion {
+  background: #32a0bf21;
+  border-left: 3px solid var(--color-principal);
+  box-shadow: 0px 0px 8px rgba(42, 69, 74, 0.25);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 700px;
+  height: 210px;
+  margin-bottom: 2rem;
+  padding: 0.0023rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+  line-height: 22px;
+}
+
+
+.formacion:hover {
+  transform: rotateZ(1deg);
+}
+
+@media screen and (min-width: 768px) {
+  .formacion {
+    width: 45%;
+    
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .formacion {
+    width: 32%;
+    height: 250px;
+  }
+}
+
+

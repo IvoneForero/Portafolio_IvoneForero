@@ -1,0 +1,29 @@
+.formacion__img {
+  width: 50%;
+  
+}
+
+.formacion__img--sena {
+  width: 90px;
+}
+
+.formacion__img--unab {
+  width: 160px;
+}
+
+.formacion__img--alura {
+  width: 180px;
+}
+
+.formacion__img--sheworks {
+  width: 260px;
+}
+
+.formacion__img--keycode {
+  width: 220px;
+}
+.formacion__img--utolima {
+  width: 120px;
+}
+
+

@@ -1,0 +1,7 @@
+.habilidad__nombre {
+  color: var(--color-textos);
+  margin-top: 2rem;
+  font-family: var(--font-Acme);
+  font-size: 1.3rem;
+
+}

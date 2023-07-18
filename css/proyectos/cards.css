@@ -1,0 +1,41 @@
+.card__father{
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.card__father:hover .card__proyecto{
+    transform: rotateY(180deg);
+}
+
+.card__proyecto{
+    width: 350px;
+    height: 250px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1200ms;
+    
+}
+
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+
+.card__front,
+.card__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.card__back{
+    transform: rotateY(180deg);
+    background-color:var(--color-flotante);
+}
+
+

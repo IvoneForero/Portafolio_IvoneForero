@@ -1,0 +1,12 @@
+.container__proyectos{
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+

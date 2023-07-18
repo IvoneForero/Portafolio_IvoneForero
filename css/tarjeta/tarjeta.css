@@ -1,0 +1,28 @@
+.tarjeta {
+  background: var(--color-flotante);
+  box-shadow: 0px 0px 10px 0px rgba(127, 121, 213, 0.2);
+  border-radius: 20px;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  position: relative;
+  font-family: var(--font-Sansita);
+  font-size: 22px;
+  width: 58%;
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 720px){
+  .tarjeta{
+    width: 80%;
+    
+    }
+
+}
+
+
+
+
+

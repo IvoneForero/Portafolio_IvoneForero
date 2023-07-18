@@ -1,0 +1,26 @@
+.card{
+    
+    font-size: 1rem;
+    font-family: var(--font-Chivo);
+    width: 100px;
+    height: 80px;
+    margin: 2.5rem;
+    padding: 20px 10px;
+    padding-top: 10px;
+    border: 2px solid var(--color-titulos);
+    border-radius: 15px;
+}
+
+.card i{
+    
+    color:#cfbcd5;
+    font-size: 3.7rem;
+    margin-bottom: 15px;
+    
+}
+
+.card:hover{
+    box-shadow: 10px 10px 15px 1px #4f5454;
+    transform: translateY(-0.5rem);
+    transition: 0.6s;
+}
